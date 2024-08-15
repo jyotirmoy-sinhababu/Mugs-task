@@ -8,8 +8,8 @@ import Image from 'next/image';
 const Logo = () => {
   return (
     <div className='flex gap-[4%]'>
-      <Image className='w-[37px]' src={subtract} alt='' />
-      <Image className='w-[122px]' src={mumair} alt='' />
+      <Image className='w-[37px]' src={subtract} alt='logo image' />
+      <Image className='w-[122px]' src={mumair} alt='logo image' />
     </div>
   );
 };
