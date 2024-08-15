@@ -4,6 +4,7 @@ import Navbar from '../../components/navbar/Navbar';
 import HeroSection from '../../components/heroSection/HeroSection';
 import AboutMe from '../../components/aboutMe/AboutMe';
 import Services from '../../components/services/Services';
+import MyProjects from '../../components/myProjects/MyProjects';
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <HeroSection />
       <AboutMe />
       <Services />
+      <MyProjects />
     </div>
   );
 };
