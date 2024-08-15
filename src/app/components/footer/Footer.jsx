@@ -5,9 +5,9 @@ import ContactBtn from '../contactBtns/ContactBtn';
 
 const Footer = () => {
   return (
-    <div className='flex justify-center items-center mt-[4%] flex-col gap-11 border-t-2 h-[300px] bg-slate-300'>
+    <div className='flex justify-center items-center sm:mt-[4%] mt-[6%] flex-col gap-11 border-t-2 sm:h-[300px] h-[200px] bg-slate-100'>
       <Logo />
-      <div className='flex w-[71%] justify-center'>
+      <div className='sm:flex w-[71%] justify-center hidden'>
         <button className='flex justify-center items-center w-[100px] text-[15px]'>
           Home
         </button>
