@@ -4,10 +4,10 @@ const ContactForm = () => {
   return (
     <div id='contact' className='mt-[4%]'>
       <div>
-        <p className='text-center font-semibold text-[45px]'>
+        <p className='text-center font-semibold text-[45px] font-poppins'>
           Lets Design Together
         </p>
-        <p className='text-center font-normal mt-[2%]'>
+        <p className='text-center font-normal mt-[2%] font-poppins'>
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus netus in. Aliquet donec morbi convallis pretium
         </p>
@@ -21,7 +21,7 @@ const ContactForm = () => {
           />
         </form>
         <button
-          className='flex justify-center items-center bg-orange-500 hover:bg-orange-700 sm:w-[222px] w-[110px] sm:h-[65px] h-[41px] text-gray-50 rounded-[14px]'
+          className='flex justify-center items-center bg-orange-500 hover:bg-orange-700 sm:w-[222px] w-[110px] sm:h-[65px] h-[41px] text-gray-50 rounded-[14px] font-poppins'
           type='submit'
         >
           Contact Me

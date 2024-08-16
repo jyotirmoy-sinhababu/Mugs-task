@@ -20,41 +20,41 @@ const NavLinks = () => {
       <div className='sm:flex w-[71%] hidden'>
         <Link
           href='#hero'
-          className='flex justify-center items-center w-[100px] text-[15px]'
+          className='flex justify-center items-center w-[100px] text-[15px] font-poppins'
         >
           Home
         </Link>
         <Link
           href='#about'
-          className='flex justify-center items-center w-[100px] text-[15px]'
+          className='flex justify-center items-center w-[100px] text-[15px] font-poppins'
         >
           About Me
         </Link>
         <Link
           href='#services'
-          className='flex justify-center items-center w-[100px] text-[15px]'
+          className='flex justify-center items-center w-[100px] text-[15px] font-poppins'
         >
           Services
         </Link>
         <Link
           href='#myProjects'
-          className='flex justify-center items-center w-[100px] text-[15px]'
+          className='flex justify-center items-center w-[100px] text-[15px] font-poppins'
         >
           Projects
         </Link>
         <Link
           href='#testimonials'
-          className='flex justify-center items-center w-[100px] text-[15px]'
+          className='flex justify-center items-center w-[100px] text-[15px] font-poppins'
         >
           Testimonials
         </Link>
         <Link
           href='#contact'
-          className='flex justify-center items-center w-[100px] text-[15px]'
+          className='flex justify-center items-center w-[100px] text-[15px] font-poppins'
         >
           Contact
         </Link>
-        <button className='flex justify-center items-center w-[140px] h-[41px] bg-orange-500 text-[14px] text-slate-50 rounded'>
+        <button className='flex justify-center items-center w-[140px] h-[41px] bg-orange-500 text-[14px] text-slate-50 rounded font-poppins'>
           Download CV
         </button>
       </div>

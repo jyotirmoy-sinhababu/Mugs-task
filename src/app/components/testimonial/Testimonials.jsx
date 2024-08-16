@@ -6,8 +6,10 @@ const Testimonials = () => {
   return (
     <div id='testimonials' className='mt-[4%]'>
       <div>
-        <p className='text-center font-semibold text-[45px]'>Testimonials</p>
-        <p className='text-center font-normal mt-[2%]'>
+        <p className='text-center font-semibold text-[45px] font-poppins'>
+          Testimonials
+        </p>
+        <p className='text-center font-normal mt-[2%] font-poppins'>
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
           lectus netus in. Aliquet donec morbi convallis pretium
         </p>
