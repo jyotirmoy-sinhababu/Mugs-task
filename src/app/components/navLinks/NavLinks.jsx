@@ -1,8 +1,18 @@
 import React from 'react';
 
 import { RxHamburgerMenu } from 'react-icons/rx';
+import { RxCross1 } from 'react-icons/rx';
+
+import { useState } from 'react';
+
+import NavLinksMobileView from './NavLinksMobileView';
 
 const NavLinks = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const controlIsOpen = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       <div className='sm:flex w-[71%] hidden'>
@@ -28,9 +38,18 @@ const NavLinks = () => {
           Download CV
         </button>
       </div>
-      <div className='sm:hidden block'>
-        <RxHamburgerMenu />
-      </div>
+      <button className='sm:hidden block z-50' onClick={controlIsOpen}>
+        {isOpen ? (
+          <RxCross1 className='text-2xl text-cyan-900 font-extrabold' />
+        ) : (
+          <RxHamburgerMenu className='text-[31px]' />
+        )}
+      </button>
+      {isOpen && (
+        <div>
+          <NavLinksMobileView />
+        </div>
+      )}
     </>
   );
 };
