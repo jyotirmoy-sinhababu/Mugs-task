@@ -4,7 +4,7 @@ import TestimonialCard from './TestimonialCard';
 
 const Testimonials = () => {
   return (
-    <div className='mt-[4%]'>
+    <div id='testimonials' className='mt-[4%]'>
       <div>
         <p className='text-center font-semibold text-[45px]'>Testimonials</p>
         <p className='text-center font-normal mt-[2%]'>

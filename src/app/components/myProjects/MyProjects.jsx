@@ -4,7 +4,10 @@ import ProjectCards from './ProjectCards';
 
 const MyProjects = () => {
   return (
-    <div className='flex flex-col justify-center mt-[4%] mx-[20%]'>
+    <div
+      id='myProjects'
+      className='flex flex-col justify-center mt-[4%] mx-[20%]'
+    >
       <div className='flex flex-col justify-center items-center'>
         <p className='text-center font-semibold text-[45px]'>My Projects</p>
         <p className='text-center font-normal'>

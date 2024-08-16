@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () => {
   return (
-    <div className='mt-[4%]'>
+    <div id='contact' className='mt-[4%]'>
       <div>
         <p className='text-center font-semibold text-[45px]'>
           Lets Design Together

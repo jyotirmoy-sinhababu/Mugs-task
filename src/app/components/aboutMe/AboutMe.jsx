@@ -5,7 +5,10 @@ import Image from 'next/image';
 
 const AboutMe = () => {
   return (
-    <div className='flex justify-between items-center mt-[4%] mx-[20%] flex-col-reverse sm:flex-row'>
+    <div
+      id='about'
+      className='flex justify-between items-center mt-[4%] mx-[20%] flex-col-reverse sm:flex-row'
+    >
       <div>
         <Image src={group} alt='Profile picture' />
       </div>

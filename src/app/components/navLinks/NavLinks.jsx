@@ -7,6 +7,8 @@ import { useState } from 'react';
 
 import NavLinksMobileView from './NavLinksMobileView';
 
+import Link from 'next/link';
+
 const NavLinks = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,24 +18,42 @@ const NavLinks = () => {
   return (
     <>
       <div className='sm:flex w-[71%] hidden'>
-        <button className='flex justify-center items-center w-[100px] text-[15px]'>
+        <Link
+          href='#hero'
+          className='flex justify-center items-center w-[100px] text-[15px]'
+        >
           Home
-        </button>
-        <button className='flex justify-center items-center w-[100px] text-[15px]'>
+        </Link>
+        <Link
+          href='#about'
+          className='flex justify-center items-center w-[100px] text-[15px]'
+        >
           About Me
-        </button>
-        <button className='flex justify-center items-center w-[100px] text-[15px]'>
+        </Link>
+        <Link
+          href='#services'
+          className='flex justify-center items-center w-[100px] text-[15px]'
+        >
           Services
-        </button>
-        <button className='flex justify-center items-center w-[100px] text-[15px]'>
+        </Link>
+        <Link
+          href='#myProjects'
+          className='flex justify-center items-center w-[100px] text-[15px]'
+        >
           Projects
-        </button>
-        <button className='flex justify-center items-center w-[100px] text-[15px]'>
+        </Link>
+        <Link
+          href='#testimonials'
+          className='flex justify-center items-center w-[100px] text-[15px]'
+        >
           Testimonials
-        </button>
-        <button className='flex justify-center items-center w-[100px] text-[15px]'>
+        </Link>
+        <Link
+          href='#contact'
+          className='flex justify-center items-center w-[100px] text-[15px]'
+        >
           Contact
-        </button>
+        </Link>
         <button className='flex justify-center items-center w-[140px] h-[41px] bg-orange-500 text-[14px] text-slate-50 rounded'>
           Download CV
         </button>

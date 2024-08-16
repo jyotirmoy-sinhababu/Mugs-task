@@ -4,7 +4,10 @@ import ServiceCard from './ServiceCard';
 
 const Services = () => {
   return (
-    <div className='flex flex-col justify-center mt-[4%] mx-[20%] '>
+    <div
+      id='services'
+      className='flex flex-col justify-center mt-[4%] mx-[20%] '
+    >
       <div className='flex flex-col justify-center items-center '>
         <p className='text-center font-semibold text-[45px]'>Services</p>
         <p className='text-center font-normal'>
