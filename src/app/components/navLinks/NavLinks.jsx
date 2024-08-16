@@ -38,7 +38,10 @@ const NavLinks = () => {
           Download CV
         </button>
       </div>
-      <button className='sm:hidden block z-50' onClick={controlIsOpen}>
+      <button
+        className='flex absolute left-[88%] sm:hidden  z-50'
+        onClick={controlIsOpen}
+      >
         {isOpen ? (
           <RxCross1 className='text-2xl text-cyan-900 font-extrabold' />
         ) : (
